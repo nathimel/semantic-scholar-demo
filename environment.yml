@@ -1,0 +1,11 @@
+name: ss-demo
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas # plotting
+  - plotnine # plotting
+  - scikit-learn # pca
+  - pip
+  - pip:
+    - semanticscholar
